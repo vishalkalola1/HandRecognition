@@ -1,8 +1,17 @@
 # HandRecognition Using OpenCV FrameWork
 
+## Requirements ##
+
+Xcode 8+
+
+iOS 8+
+
+ARC
+
+## Basic usage ##
 
 
-## Detect Hand ##
+### Detect Hand ###
 
 ```
 -(void)handDetect:(UIImage *)image1 {
@@ -122,7 +131,7 @@
   ```
 
 
-## Convert IPLImage To UIImage ##
+### Convert IPLImage To UIImage ###
 
 ```
 - (UIImage*)UIImageFromIplImage:(IplImage*)image {
@@ -158,7 +167,7 @@
 }
 ```
 
-## Convert UIimage To IPLImage ##
+### Convert UIimage To IPLImage ###
 
 ```
 - (IplImage *)CreateIplImageFromUIImage:(UIImage *)image {
