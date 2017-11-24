@@ -2,11 +2,9 @@
 
 ## Requirements ##
 
-Xcode 8+
-
-iOS 8+
-
-ARC
+Xcode 8+\n
+iOS 8+\n
+ARC\n
 
 ## Basic usage ##
 
